@@ -1,4 +1,4 @@
 Makefile
 ========
 
-Generic Makefile for a C or C++ Project.
+C++ project demonstrating a simple Makefile
