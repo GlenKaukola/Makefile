@@ -1,6 +1,9 @@
 CXX = g++
 CXXFLAGS = -Wall -g -O2
-#LDFLAGS = -L/usr/example/lib -lexample1 -lexample2
+
+#LDFLAGS = -L/usr/example/lib
+#LDLIBS = -lexample1 -lexample2
+
 SOURCES = app.cc class1.cc
 
 app: $(SOURCES:.cc=.o)
