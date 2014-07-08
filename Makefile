@@ -4,7 +4,7 @@ CXXFLAGS = -Wall -g -O2
 #LDFLAGS = -L/usr/example/lib
 #LDLIBS = -lexample1 -lexample2
 
-SOURCES = app.cc class1.cc
+SOURCES = app.cc
 
 app: $(SOURCES:.cc=.o)
 	$(CXX) $(CXXFLAGS) $(LDFLAGS) $(SOURCES:.cc=.o) -o app
